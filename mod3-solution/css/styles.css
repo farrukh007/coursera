@@ -1,7 +1,179 @@
-.row {
-	margin-bottom: 15px;
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
 }
-.row > div {
-	border: 2px solid red;
-	background-color: gray;
+
+/** HEADER **/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+
+}
+.navbar-brand {
+	padding-top: 15px;
+}
+.navbar-brand h1 {/* Restaurant Name */
+	font-family: 'Lora', serif;
+	color: #557C3E;
+	font-size: 1.5em;
+	text-transform: all;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	font-weight: bold;
+	text-align: center;
+	border-style: solid;
+	border: 1;
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	border-color: black;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /* Toggle Button */
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle { 
+	clear: both;
+	margin-top: -40px;
+}
+
+/* Simple Responsive Framework. */
+
+.row {
+  width: 100%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1  { width: 8.33%; }
+  .col-lg-2  { width: 16.66%; }
+  .col-lg-3  { width: 25%; }
+  .col-lg-4  { width: 33.33%; }
+  .col-lg-5  { width: 41.66%; }
+  .col-lg-6  { width: 50%; }
+  .col-lg-7  { width: 58.33%; }
+  .col-lg-8  { width: 66.66%; }
+  .col-lg-9  { width: 74.99%; }
+  .col-lg-10 { width: 83.33%; }
+  .col-lg-11 { width: 91.66%; }
+  .col-lg-12 { width: 100%; }
+  h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  section {
+    margin: 20px auto;
+    padding: 5px 20px;
+    width: 100%;
+    background-color: #C1C1C1;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-md-1  { width: 8.33%; }
+  .col-md-2  { width: 16.66%; }
+  .col-md-3  { width: 25%; }
+  .col-md-4  { width: 33.33%; }
+  .col-md-5  { width: 41.66%; }
+  .col-md-6  { width: 50%; }
+  .col-md-7  { width: 58.33%; }
+  .col-md-8  { width: 66.66%; }
+  .col-md-9  { width: 74.99%; }
+  .col-md-10 { width: 83.33%; }
+  .col-md-11 { width: 91.66%; }
+  .col-md-12 { width: 100%; }
+  h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  section {
+    margin: 20px auto;
+    padding: 5px 20px;
+    width: 100%;
+    background-color: #C1C1C1;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px) {
+  .col-sm {
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  section {
+    margin: 20px auto;
+    padding: 5px 20px;
+    width: 100%;
+    background-color: #C1C1C1;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+/********** Xtra Small **********/
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+  }
+  .col-xs-1  { width: 8.33%; }
+  .col-xs-2  { width: 16.66%; }
+  .col-xs-3  { width: 25%; }
+  .col-xs-4  { width: 33.33%; }
+  .col-xs-5  { width: 41.66%; }
+  .col-xs-6  { width: 50%; }
+  .col-xs-7  { width: 58.33%; }
+  .col-xs-8  { width: 66.66%; }
+  .col-xs-9  { width: 74.99%; }
+  .col-xs-10 { width: 83.33%; }
+  .col-xs-11 { width: 91.66%; }
+  .col-xs-12 { width: 100%; }
+  h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+  section {
+    margin: 20px auto;
+    padding: 5px 20px;
+    width: 100%;
+    background-color: #C1C1C1;
+    color: black;
+    font-weight: bold;
+  }
 }
