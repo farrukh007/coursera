@@ -17,7 +17,7 @@ body {
 .navbar-brand h1 {/* Restaurant Name */
 	font-family: 'Lora', serif;
 	color: #557C3E;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-transform: all;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -79,7 +79,7 @@ body {
   .col-lg-10 { width: 83.33%; }
   .col-lg-11 { width: 91.66%; }
   .col-lg-12 { width: 100%; }
-  h2 {
+  h3 {
     text-align: center;
     color: black;
     font-weight: bold;
@@ -111,7 +111,7 @@ body {
   .col-md-10 { width: 83.33%; }
   .col-md-11 { width: 91.66%; }
   .col-md-12 { width: 100%; }
-  h2 {
+  h3 {
     text-align: center;
     color: black;
     font-weight: bold;
@@ -131,7 +131,7 @@ body {
   .col-sm {
     width: 100%;
   }
-  h2 {
+  h3 {
     text-align: center;
     color: black;
     font-weight: bold;
@@ -163,7 +163,7 @@ body {
   .col-xs-10 { width: 83.33%; }
   .col-xs-11 { width: 91.66%; }
   .col-xs-12 { width: 100%; }
-  h2 {
+  h3 {
     text-align: center;
     color: black;
     font-weight: bold;
